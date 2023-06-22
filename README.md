@@ -1,7 +1,7 @@
 # Know Your Neighborhood
- Know Your Neighborhood Application is a website application that provides users with information about their local neighborhood. The application allows user to register, login using their Facebook account through OAuth2, post a store, search another store and user, and edit their personal profile page
+Know Your Neighborhood is a website application that provides users with valuable information about their local neighborhood. With this application, users can register and login using their Facebook account through OAuth2, allowing for a seamless and secure authentication process. 
 
-**Project Overview**
+#Project Overview
 The Know-Your-Neighborhood website consists of the following Key pages
 
 Home Page
@@ -15,17 +15,18 @@ Post Store
 View Profile page
 Customers can login using the existing API and fetch basic information such as name, email from API.
 
-**Technologies Used & System Requirements**
+#Technologies Used & System Requirements
 Backend : Java SE 11, MySQL 8, Spring Boot, Spring Security, OAuth2 (Facebook API), Restful API
 Frontend : React, Tailwindcss, Axios, React-hook-form, React-router-dom
 Tools : Node Js (LTS Ver)
 
-**HOW TO RUN**
+#HOW TO RUN
 Backend
-Import Existing Project into STS IDE
-Create MySQL database
+1.Import Existing Project into STS IDE
+2. Create MySQL database
 mysql> create database kyn
-Setup application.yml
+
+3.Setup application.yml
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/kyn
@@ -58,20 +59,21 @@ spring:
 
 app:
   auth:
-    tokenSecret: <YOUR_TOKEN_SECRET> (you can go to generator online for token secret)
+    tokenSecret: <YOUR_TOKEN_SECRET> (you can go to a token secret generator online)
     tokenExpirationMsec: 86400000
   oauth2:
     authorizedRedirectUris:
       - http://localhost:3000/oauth2/redirect
-Get Client ID & Client Secret Facebook API
-Facebook Docs to create Facebook Login endpoint API
-Run Java Application
+
+3.Get Client ID & Client Secret Facebook API
+4.Facebook Docs to create Facebook Login endpoint API
+5.Run Java Application
 
 Frontend
-Import existing project to your Text Editor/IDE and run NPM Install
+1. Import existing project to your Text Editor/IDE and run NPM Install
 npm install
-Run React application with NPM Start (Make sure the backend is also running in the localhost:8080)
+2. Run React application with NPM Start (Make sure the backend is also running in the localhost:8080)
 npm start
-Open http://localhost:3000 to view it in the browser.
+3. Open http://localhost:3000 to view it in the browser.
 
-**Screenshot**
+
