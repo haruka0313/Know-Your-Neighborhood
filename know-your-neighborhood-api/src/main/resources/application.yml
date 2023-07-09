@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/kyn_project
     username: root
-    password: sweetener223
+    password: 
 
   jpa:
     show-sql: true
