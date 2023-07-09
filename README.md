@@ -108,15 +108,9 @@ npm start
 <img src="./images/login.png" alt="login" width="50%"/>
 <p>Profile page</p>
 <img src="./images/profile.png" alt="profile" width="50%"/>
-<p>Edit Profile</p>
-<img src="./images/edit-profile.png" alt="profile" width="50%"/>
 <p>Stores</p>
-<img src="./images/stores.png" alt="profile" width="50%"/>
-<p>Store Detail</p>
-<img src="./images/store-detail.png" alt="profile" width="50%"/>
-<p>Add Store</p>
-<img src="./images/add-store.png" alt="profile" width="50%"/>
+<img src="./images/stores.png" alt="stores" width="50%"/>
 <p>About Page</p>
-<img src="./images/about.png" alt="profile" width="50%"/>
+<img src="./images/about.png" alt="about" width="50%"/>
 <p>Contact Page</p>
-<img src="./images/contact.png" alt="profile" width="50%"/>
+<img src="./images/contact.png" alt="contact" width="50%"/>
